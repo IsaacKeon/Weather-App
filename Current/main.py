@@ -4,7 +4,7 @@ def fahrenheit_to_celsius(fahrenheit):
     celsius = (fahrenheit - 32) * 5/9
     return celsius
 
-api_key = open('api_key','r').read()
+api_key = 'df8e59815692aa1feb8cc2f99158cbac'
 
 user_input = input("Enter city: ")
 
@@ -20,5 +20,5 @@ else:
     celsius = fahrenheit_to_celsius(temp)
 
     print(f"The weather in {user_input} is : {weather}")
-    print(f"The tempature in {user_input} is : {celsius} celsius")
+print(f"The tempature in {user_input} is : {celsius} celsius")
 
